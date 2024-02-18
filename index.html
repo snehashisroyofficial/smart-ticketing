@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind and daisy ui cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS file linked  -->
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: "#da373d",
+                        "base-green": "#1DD100",
+                        "bg-secondary": "#131318",
+
+                    },
+                },
+            },
+        };
+    </script>
+
+
+    <style>
+        .font-raleway {
+            font-family: "Raleway", sans-serif;
+        }
+
+        .font-inter {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/069f888d84.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="container mx-auto ">
+
+    <header>
+
+        <!-- navigation bar  -->
+
+        <section class="font-raleway">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars fa-2x"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-lg">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><a>Search</a></li>
+
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost   font-extrabold  text-4xl font-raleway">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                    <ul class="menu menu-horizontal px-1 text-lg lg:space-x-5">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><a>Search</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <a
+                        class="btn bg-green-100 border-2 border-green-400 rounded-2xl  font-bold text-xl text-green-600 ">Bus
+                        <img src="./images/bus-icon.png" alt=""></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- banner area -->
+        <section class="container mx-auto my-8 ">
+
+            <!-- container div -->
+            <div class="relative">
+                <div class="absolute w-full"><img src="./images/banner.png" class="w-full" alt=""></div>
+
+                <div class=" absolute pt-[70px] pb-[135px] px-[215px] text-center space-y-4">
+                    <h1 class=" text-[64px] font-raleway font-extrabold w-full text-white">End-to-End Travel
+                        with <br>
+                        <span class="text-base-green">P
+                            Paribahan</span>
+                    </h1>
+                    <p class="text-xl text-white">Yes, you can run unit tests and view the results directly within the
+                        app. The
+                        integrated testing
+                        features allow for a
+                        streamlined .</p>
+                    <button class="btn text-xl bg-base-green hover:bg-white hover:text-green-800 border-0">Buy
+                        Tickets</button>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    </header>
+    <main></main>
+
+
+
+
+</body>
+
+</html>
