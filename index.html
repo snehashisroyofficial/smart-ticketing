@@ -53,14 +53,40 @@
         .font-inter {
             font-family: "Inter", sans-serif;
         }
+
+        .title-format {
+            font-family: "Raleway", sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .text-style-full {
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color: #03071280;
+        }
+
+        .text-style {
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .btn-style {
+            font-family: "Inter", sans-serif;
+            font-size: 18px;
+            font-weight: 500;
+            color: #03071280;
+        }
     </style>
     <script src="https://kit.fontawesome.com/069f888d84.js" crossorigin="anonymous"></script>
 
 </head>
 
-<body class="container mx-auto ">
+<body>
 
-    <header>
+    <header class="container mx-auto ">
 
         <!-- navigation bar  -->
 
@@ -120,13 +146,11 @@
             </div>
 
         </section>
-    </header>
 
-    <main class="container mx-auto ">
 
 
         <!-- counpon section  -->
-        <section class="mb-24">
+        <section class="mb-24 container mx-auto ">
             <h1 class="text-5xl font-bold font-raleway mb-12 text-center">Best offers for you</h1>
 
             <!-- counpon container  -->
@@ -186,22 +210,30 @@
             </div>
         </section>
 
+    </header>
+
+    <main class="bg-slate-200 rounded-tl-[150px] rounded-tr-[150px] border-t-4 border-green-600">
 
 
-        <section>
-            <!-- heading text  -->
-            <div class="text-center px-[216px] mb-12">
+
+        <!-- heading text  -->
+        <section class="container mx-auto pt-28 ">
+            <div class="text-center px-[216px] mb-12 space-y-6">
                 <h1 class=" text-[40px]  font-bold font-raleway">P.H Paribahan</h1>
-                <p class="text-[18px] text-[#03071299]">Yes, you can run unit tests and view the results directly within
+                <p class="text-[18px] font-inter text-[#03071299]">Yes, you can run unit tests and view the results
+                    directly within
                     the
                     app. The
                     integrated testing features
                     allow for a
                     streamlined .</p>
             </div>
+        </section>
 
+        <!-- ticket info  -->
+        <section class="container mx-auto">
             <!-- master container  -->
-            <div class="  bg-slate-300 rounded-3xl flex   border-0">
+            <div class=" bg-white rounded-3xl flex   border-0">
 
                 <div class=" p-8 w-4/5">
                     <!-- seat container  -->
@@ -224,7 +256,7 @@
                     </div>
 
                     <!-- journey details  -->
-                    <div class="p-8 bg-green-200 rounded-2xl">
+                    <div class="p-8 bg-[#F7F8F8] rounded-2xl">
                         <div class=" flex justify-between border-b-2 border-dashed border-gray-400 pb-6 mb-6">
                             <h1 class="font-raleway text-lg font-semibold text-ticket-text">Route</h1>
                             <h1 class="font-raleway text-lg font-bold ">Dhaka - Sylhet</h1>
@@ -246,17 +278,86 @@
 
                 <div class="flex flex-col justify-center text-center items-center pl-6 pr-16 ">
                     <img src="./images/fare.png" alt="">
-                    <h1 class="text-2xl font-raleway font-bold">550 Taka</h1>
+                    <h1 class="text-xl font-raleway font-bold">550 Taka</h1>
                     <h2 class="text-xl font-raleway font-semibold">Per Seat</h2>
                 </div>
 
 
             </div>
-
-
         </section>
 
 
+        <!-- seat selection  -->
+        <section class="container mx-auto mt-6 flex bg-white rounded-3xl">
+            <!-- container 1 -->
+            <div class=" my-8 px-8 border-r-2 border-dashed border-gray-400">
+                <h1 class="title-format">Select Your Seat</h1>
+                <div class="flex justify-between py-4 mt-6 border-y-2 border-dashed border-gray-400">
+                    <div class="flex gap-2">
+                        <img src="./images/seat-gray.png" alt="">
+                        <h1 class="text-style-full">Available</h1>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="./images/seat-green.png" alt="">
+                        <h1 class="text-style text-base-text">Selected</h1>
+                    </div>
+
+                </div>
+                <div class="py-6 flex justify-end ">
+                    <button class="btn  btn-active no-animation px-9"><img src="./images/tabler-icon-steering-wheel.png"
+                            alt=""></button>
+                </div>
+
+
+
+                <div class="grid grid-cols-5 text-center gap-8 items-center">
+
+                    <p>A</p>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A1</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A2</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A3</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A4</button>
+                    <p>B</p>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B1</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B2</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B3</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B4</button>
+                    <p>C</p>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C1</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C2</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C3</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C4</button>
+                    <p>D</p>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D1</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D2</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D3</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D4</button>
+                    <p>E</p>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E1</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E2</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E3</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E4</button>
+                    <p>F</p>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F1</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F2</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F3</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F4</button>
+                    <p>G</p>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G1</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G2</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G3</button>
+                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G4</button>
+
+                </div>
+            </div>
+
+
+            <!-- container 2 -->
+            <div class="p-8 ">
+                <h1 class="title-format border-b-4 border-solid border-b-gray-700">Select Your Seat</h1>
+            </div>
+            <div></div>
+        </section>
 
     </main>
 
