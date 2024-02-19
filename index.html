@@ -37,6 +37,7 @@
                         "base-text": "#1DD100",
                         "ticket-text": "#03071299",
                         "ticket-text-second": "#030712CC",
+                        "common-color": "#03071280",
 
                     },
                 },
@@ -90,7 +91,7 @@
 
         <!-- navigation bar  -->
 
-        <section class="font-raleway">
+        <section class="font-raleway mt-12">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -106,7 +107,7 @@
 
                         </ul>
                     </div>
-                    <a class="btn btn-ghost   font-extrabold  text-4xl font-raleway">P-Ticket</a>
+                    <a class="btn btn-ghost   font-extrabold  text-4xl font-raleway">Indi-GO</a>
                 </div>
                 <div class="navbar-center hidden lg:flex ">
                     <ul class="menu menu-horizontal px-1 text-lg lg:space-x-5">
@@ -131,15 +132,15 @@
                 <div class="hero-content text-center ">
                     <div class="space-y-6 px-[215px]">
                         <h1 class="text-white text-7xl font-extrabold font-raleway">End-to-End Travel
-                            with <br> <span class="text-base-green">P
-                                Paribahan</span></h1>
+                            with <br> <span class="text-green-500">Indi-GO Travels</span></h1>
                         <p class="text-xl text-white">Yes, you can run unit tests and view the results directly within
                             the
                             app. The
                             integrated testing
                             features allow for a
                             streamlined .</p>
-                        <button class="btn text-xl bg-base-green hover:bg-white hover:text-green-800 border-0">Buy
+                        <button
+                            class="btn text-xl  bg-green-500 border-0 text-white hover:bg-green-300 hover:text-green-700 ">Buy
                             Tickets</button>
                     </div>
                 </div>
@@ -212,14 +213,14 @@
 
     </header>
 
-    <main class="bg-slate-200 rounded-tl-[150px] rounded-tr-[150px] border-t-4 border-green-600">
+    <main class="bg-slate-200 rounded-tl-[150px] rounded-tr-[150px] border-t-4 border-green-600 pb-32 ">
 
 
 
         <!-- heading text  -->
         <section class="container mx-auto pt-28 ">
             <div class="text-center px-[216px] mb-12 space-y-6">
-                <h1 class=" text-[40px]  font-bold font-raleway">P.H Paribahan</h1>
+                <h1 class=" text-[40px]  font-bold font-raleway">Indi-GO Safe Travel</h1>
                 <p class="text-[18px] font-inter text-[#03071299]">Yes, you can run unit tests and view the results
                     directly within
                     the
@@ -231,7 +232,7 @@
         </section>
 
         <!-- ticket info  -->
-        <section class="container mx-auto">
+        <section class="container mx-auto ">
             <!-- master container  -->
             <div class=" bg-white rounded-3xl flex   border-0">
 
@@ -288,7 +289,8 @@
 
 
         <!-- seat selection  -->
-        <section class="container mx-auto mt-6 flex bg-white rounded-3xl">
+        <section class="container mx-auto mt-6 flex bg-white rounded-3xl  ">
+
             <!-- container 1 -->
             <div class=" my-8 px-8 border-r-2 border-dashed border-gray-400">
                 <h1 class="title-format">Select Your Seat</h1>
@@ -304,8 +306,8 @@
 
                 </div>
                 <div class="py-6 flex justify-end ">
-                    <button class="btn  btn-active no-animation px-9"><img src="./images/tabler-icon-steering-wheel.png"
-                            alt=""></button>
+                    <button class="py-4 px-9   rounded-xl bg-gray-200"><img
+                            src="./images/tabler-icon-steering-wheel.png" alt=""></button>
                 </div>
 
 
@@ -313,57 +315,167 @@
                 <div class="grid grid-cols-5 text-center gap-8 items-center">
 
                     <p>A</p>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A1</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A2</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A3</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">A4</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">A1</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">A2</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">A3</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">A4</button>
                     <p>B</p>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B1</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B2</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B3</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">B4</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">B1</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">B2</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">B3</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">B4</button>
                     <p>C</p>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C1</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C2</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C3</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">C4</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">C1</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">C2</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">C3</button>
+                    <button class="py-4 px-9  rounded-xl btn-style bg-gray-100">C4</button>
                     <p>D</p>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D1</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D2</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D3</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">D4</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">D1</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">D2</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">D3</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">D4</button>
                     <p>E</p>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E1</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E2</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E3</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">E4</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">E1</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">E2</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">E3</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">E4</button>
                     <p>F</p>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F1</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F2</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F3</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">F4</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">F1</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">F2</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">F3</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">F4</button>
                     <p>G</p>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G1</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G2</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G3</button>
-                    <button class=" btn btn-active no-animation px-9 btn-style bg-gray-200">G4</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">G1</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">G2</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">G3</button>
+                    <button class=" py-4 px-9  rounded-xl btn-style bg-gray-100">G4</button>
 
                 </div>
             </div>
 
 
             <!-- container 2 -->
-            <div class="p-8 ">
-                <h1 class="title-format border-b-4 border-solid border-b-gray-700">Select Your Seat</h1>
+            <div class=" flex-1 m-8">
+
+                <!-- head title  -->
+                <div class=" border-b-2 border-dashed border-gray-400 pb-6 mb-6 ">
+                    <h1 class="title-format ">Select Your Seat</h1>
+                </div>
+
+
+                <!-- info area started  -->
+                <div class="bg-gray-100 p-8 rounded-3xl">
+                    <!-- title 1 -->
+                    <div
+                        class="font-inter text-base font-semibold flex justify-between pb-4 border-b-2 border-dashed border-gray-400 ">
+                        <h1>Seat <sup class="text-white px-2 rounded-xl bg-green-500">2</sup>
+                        </h1>
+                        <h1>Class</h1>
+                        <h1>Price</h1>
+                    </div>
+
+
+                    <!-- ticket add or remove  -->
+                    <div class=" border-b-2 border-solid border-gray-400 pb-4">
+                        <div class="text-style-full flex justify-between pt-4">
+                            <h1>C2</h1>
+                            <h1>Economy</h1>
+                            <h1>550</h1>
+                        </div>
+
+
+                    </div>
+                    <!-- title 2 -->
+                    <div class="font-inter text-base font-semibold  capitalize  flex justify-between py-4">
+                        <h1>total price</h1>
+                        <h1>INR <span>1000</span></h1>
+                    </div>
+
+                    <!-- coupon area  -->
+                    <div class="font-inter relative">
+
+
+                        <input type="text" class="p-5 w-full outline-0 rounded-2xl  pr-24"
+                            placeholder="Have Any Coupon Code ?">
+                        <div class="absolute top-2 right-2">
+                            <button
+                                class=" btn px-5 text-xl bg-green-500 border-0 text-white hover:bg-green-300 hover:text-green-700 ">Apply</button>
+                        </div>
+                    </div>
+
+                    <!-- title 3 -->
+                    <div class="font-inter text-base font-semibold  capitalize  flex justify-between pt-4">
+                        <h1>Grand total</h1>
+                        <h1>INR <span>1000</span></h1>
+                    </div>
+
+                </div>
+
+
+                <!-- name  -->
+                <div class="font-inter flex flex-col mt-6 gap-4">
+                    <label for="passenger-name" class="text-base font-bold ">Passenger Name*</label>
+                    <input type="text" class="py-5 px-6 outline-0 border-2 border-gray-200 rounded-2xl"
+                        id="passenger-name" placeholder="Enter Your Name">
+                </div>
+                <!-- Phone Number  -->
+                <div class="font-inter flex flex-col mt-6 gap-4">
+                    <label for="passenger-phone-number" class="text-base font-bold ">Phone Number*</label>
+                    <input type="number" class="py-5 px-6 outline-0 border-2 border-gray-200 rounded-2xl"
+                        id="passenger-phone-number" placeholder="Enter Your Phone Number">
+                </div>
+                <!-- Email ID  -->
+                <div class="font-inter flex flex-col mt-6 gap-4">
+                    <label for="passenger-email" class="text-base font-bold ">Email ID</label>
+                    <input type="email" class="py-5 px-6 outline-0 border-2 border-gray-200 rounded-2xl"
+                        id="passenger-email" placeholder="Enter your Email id">
+                </div>
+
+                <!-- button      -->
+                <div class="my-6">
+                    <button
+                        class="btn w-full text-xl rounded-2xl bg-green-500 border-0 text-white hover:bg-green-300 hover:text-green-700 ">Next</button>
+                </div>
+
+                <div
+                    class="font-inter text-common-color underline decoration-2 decoration-gray-500 text- flex justify-around">
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">Cancellation Policy</a>
+                </div>
             </div>
-            <div></div>
+
+
         </section>
 
     </main>
 
+    <footer class="py-28 px-36  bg-black">
+        <div class="  flex justify-between border-b-2 border-dashed border-gray-400 pb-12">
+            <div class=" max-w-[374px] space-y-4">
+                <h1 class="text-4xl w-full font-raleway font-extrabold text-white">P-Ticket</h1>
+                <p class="text-lg font-inter text-[#ffffff93]">P-Ticket is a digital platform to make your daily
+                    commuting
+                    better.</p>
+            </div>
+            <div class="max-w-[189px] space-y-4">
+                <h1 class="text-xl font-raleway font-semibold text-white">Download our app</h1>
+                <img src="./images/get-it-on-google-play.png" class="" alt="">
+            </div>
+        </div>
+        <div class="flex justify-between pt-8">
+            <p class="text-lg font-inter text-[#ffffff93]">@all rights reserved, P-Ticket services
+                limited.2024</p>\
+            <div class="font-inter font-semibold text-base text-white flex justify-evenly  gap-8">
+                <p>Terms & condition</p>
+                <p>Return & refund policy</p>
+                <p>Privacy policy</p>
+
+            </div>
+        </div>
+    </footer>
 
 
-
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
