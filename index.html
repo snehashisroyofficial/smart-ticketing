@@ -32,8 +32,11 @@
                 extend: {
                     colors: {
                         clifford: "#da373d",
-                        "base-green": "#1DD100",
+                        "base-green": "#1DD10026",
                         "bg-secondary": "#131318",
+                        "base-text": "#1DD100",
+                        "ticket-text": "#03071299",
+                        "ticket-text-second": "#030712CC",
 
                     },
                 },
@@ -119,7 +122,7 @@
         </section>
     </header>
 
-    <main class="container mx-auto">
+    <main class="container mx-auto ">
 
 
         <!-- counpon section  -->
@@ -183,10 +186,11 @@
             </div>
         </section>
 
-        <section>
 
+
+        <section>
             <!-- heading text  -->
-            <div class="text-center px-[216px]">
+            <div class="text-center px-[216px] mb-12">
                 <h1 class=" text-[40px]  font-bold font-raleway">P.H Paribahan</h1>
                 <p class="text-[18px] text-[#03071299]">Yes, you can run unit tests and view the results directly within
                     the
@@ -196,41 +200,60 @@
                     streamlined .</p>
             </div>
 
+            <!-- master container  -->
+            <div class="  bg-slate-300 rounded-3xl flex   border-0">
 
+                <div class=" p-8 w-4/5">
+                    <!-- seat container  -->
+                    <div class=" flex justify-between  mb-6 ">
 
+                        <div class=" flex items-center gap-2">
+                            <img src="./images/bus-logo.png" class="w-[68px] h-[48px]" alt="">
+                            <div>
+                                <h1 class=" font-raleway text-[32px] font-bold">Greenline Paribahan</h1>
+                                <p class="text-lg font-inter text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                            </div>
+                        </div>
 
+                        <div>
+                            <button
+                                class="btn btn-active  no-animation btn-lg border-0 bg-base-green text-lg font-bold capitalize text-base-text font-inter"><img
+                                    src="./images/seat-green.png" alt=""><span>40</span>Seats
+                                Left</button>
+                        </div>
+                    </div>
 
+                    <!-- journey details  -->
+                    <div class="p-8 bg-green-200 rounded-2xl">
+                        <div class=" flex justify-between border-b-2 border-dashed border-gray-400 pb-6 mb-6">
+                            <h1 class="font-raleway text-lg font-semibold text-ticket-text">Route</h1>
+                            <h1 class="font-raleway text-lg font-bold ">Dhaka - Sylhet</h1>
+                        </div>
+                        <div class=" flex justify-between border-b-2 border-dashed border-gray-400 pb-6 mb-6">
+                            <h1 class="font-raleway text-lg font-semibold text-ticket-text">Departure Time</h1>
+                            <h1 class="font-raleway text-lg font-bold ">9:00 PM</h1>
+                        </div>
 
-
-
-
-
-
-
-
-
-            <!-- seat container  -->
-            <div class=" flex justify-around ">
-
-                <div class=" flex items-center w-3/4 gap-4">
-                    <img src="./images/bus-logo.png" class="w-[68px] h-[48px]" alt="">
-                    <div>
-                        <h1 class=" font-raleway text-[32px] font-bold">Greenline Paribahan</h1>
-                        <p class="text-lg font-inter text-[#03071299]">Coach-009-WEB ! AC_Business</p>
+                        <div class="flex justify-evenly pt-6  font-inter">
+                            <button class="btn btn-active  no-animation btn-lg">Boarding Point - Laxmipur</button>
+                            <button class="btn btn-active no-animation btn-lg">Dropping Point - Bogura</button>
+                            <button class="btn btn-active no-animation btn-lg">Est. Time - 11 Hour</button>
+                        </div>
                     </div>
                 </div>
 
+                <div><img src="./images/info-devider.png" class="h-full " alt=""></div>
 
-
-                <div
-                    class="px-[17px] py-[14px] bg-[#1DD10026] rounded-xl text-lg font-extrabold font-inter text-green-600 flex-1 flex  items-center p-5 gap-2">
-                    <img src="./images/seat-green.png" alt="">
-                    <p><span>40 </span> Seats Left</p>
+                <div class="flex flex-col justify-center text-center items-center pl-6 pr-16 ">
+                    <img src="./images/fare.png" alt="">
+                    <h1 class="text-2xl font-raleway font-bold">550 Taka</h1>
+                    <h2 class="text-xl font-raleway font-semibold">Per Seat</h2>
                 </div>
 
 
-
             </div>
+
+
         </section>
 
 
