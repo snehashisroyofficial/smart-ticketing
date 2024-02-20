@@ -377,10 +377,8 @@
 
                     <!-- ticket add or remove  -->
                     <div class=" border-b-2 border-solid border-gray-400 pb-4">
-                        <div class="text-style-full flex justify-between pt-4">
-                            <h1>C2</h1>
-                            <h1>Economy</h1>
-                            <h1>550</h1>
+                        <div id="ticket-add" class="">
+
                         </div>
 
 
@@ -388,25 +386,26 @@
                     <!-- title 2 -->
                     <div class="font-inter text-base font-semibold  capitalize  flex justify-between py-4">
                         <h1>total price</h1>
-                        <h1>INR <span>1000</span></h1>
+                        <h1>INR <span id="total-price">0</span></h1>
                     </div>
 
                     <!-- coupon area  -->
                     <div class="font-inter relative">
 
 
-                        <input type="text" class="p-5 w-full outline-0 rounded-2xl  pr-24"
+                        <input id="counpon-input" type="text" class="p-5 w-full outline-0 rounded-2xl  pr-24"
                             placeholder="Have Any Coupon Code ?">
                         <div class="absolute top-2 right-2">
-                            <button
-                                class=" btn px-5 text-xl bg-green-500 border-0 text-white hover:bg-green-300 hover:text-green-700 ">Apply</button>
+                            <butto id="apply-button" onclick="grandTotal()"
+                                class=" btn px-5 text-xl bg-green-500 border-0 text-white hover:bg-green-300 hover:text-green-700 ">
+                                Apply</button>
                         </div>
                     </div>
 
                     <!-- title 3 -->
                     <div class="font-inter text-base font-semibold  capitalize  flex justify-between pt-4">
                         <h1>Grand total</h1>
-                        <h1>INR <span>1000</span></h1>
+                        <h1>INR <span id="grand-total">0</span></h1>
                     </div>
 
                 </div>
