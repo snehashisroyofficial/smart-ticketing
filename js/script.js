@@ -18,6 +18,8 @@ for (const btn of allBtn) {
                 seatLeft = seatLeft - 1;
                 setInnetText("seat-left", seatLeft);
 
+                event.target.classList.add("bg-green-500", "text-white");
+
 
 
                 const ticketName = event.target.innerText;   //we get the button innertext value
@@ -51,8 +53,6 @@ for (const btn of allBtn) {
 
 
 
-
-                event.target.classList.add("bg-green-500", "text-white");
 
 
 
@@ -104,6 +104,7 @@ function discountCal(val) {
 
 
 
+
 function setInnetText(id, value) {
     document.getElementById(id).innerText = value;
 
@@ -121,3 +122,40 @@ function totalCost(id, value, discount = "") {
 
 
 
+// let passengerName = document.getElementById("passenger-name").value;
+// let passengerNumber = document.getElementById("passenger-phone-number").value;
+// let passengerEmail = document.getElementById("passenger-email").value;
+
+// var submitButton = document.getElementById('next-page');
+
+// if (passengerName === '' && passengerNumber === '' && passengerEmail === '') {
+//     alert("hello please type")
+// }
+
+// else {
+//     alert("succesfully")
+// }
+
+document.getElementById("next-page").addEventListener('click', function (event) {
+
+
+
+    document.getElementById("header").classList.add("hidden");
+    document.getElementById("main").classList.add("hidden");
+    document.getElementById("footer").classList.add("hidden");
+    document.getElementById("success-modal").classList.remove("hidden");
+
+
+
+})
+
+
+document.getElementById("continue-btn").addEventListener("click", function () {
+
+    document.getElementById("header").classList.remove("hidden");
+    document.getElementById("main").classList.remove("hidden");
+    document.getElementById("footer").classList.remove("hidden");
+    document.getElementById("success-modal").classList.add("hidden");
+
+
+})
