@@ -80,6 +80,11 @@
             font-weight: 500;
             color: #03071280;
         }
+
+
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
     <script src="https://kit.fontawesome.com/069f888d84.js" crossorigin="anonymous"></script>
 
@@ -139,9 +144,10 @@
                             integrated testing
                             features allow for a
                             streamlined .</p>
-                        <button
+                        <a href="#section2"
                             class="btn text-xl  bg-green-500 border-0 text-white hover:bg-green-300 hover:text-green-700 ">Buy
-                            Tickets</button>
+                            Tickets</a>
+
                     </div>
                 </div>
             </div>
@@ -289,7 +295,7 @@
 
 
         <!-- seat selection  -->
-        <section class="container mx-auto mt-6 flex bg-white rounded-3xl  ">
+        <section id="section2" class="container mx-auto mt-6 flex bg-white rounded-3xl  ">
 
             <!-- container 1 -->
             <div class=" my-8 px-8 border-r-2 border-dashed border-gray-400">
@@ -393,7 +399,7 @@
                     <div id="coupon-hide" class="font-inter relative">
 
 
-                        <input id="counpon-input" type="text" class="p-5 w-full outline-0 rounded-2xl  pr-24"
+                        <input id="coupon-input" type="text" class="p-5 w-full outline-0 rounded-2xl  pr-24"
                             placeholder="Have Any Coupon Code ?">
                         <div class="absolute top-2 right-2">
                             <button id="apply-button"
